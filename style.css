@@ -1,0 +1,79 @@
+html {
+    font-family:'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgb(65, 149, 218), rgb(176, 228, 117));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    height: 22.5em ;
+    width: 30em;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    display: flex-box;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.profile-header {
+    height: 10em;
+    background: url(default-header.jpg);
+    background-size: cover;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 7em;
+    left: 2em;
+    border: 4px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 6em;
+    width: 6em;
+    background: url(user-icon.png);
+    background-size: cover;
+    background-color: rgb(238, 238, 238);
+}
+
+.personal-data-container {
+    background-color: white;
+    height: 12.5em;
+    box-sizing: border-box;
+}
+
+.name {
+    padding-top: 0.5rem;
+    padding-left: 9rem;
+    text-align: left;
+    font-size: 1rem;
+    color: black;
+}
+
+.degree {
+    padding-left: 9rem;
+    text-align: left;
+    font-size: 0.7rem;
+    color: grey;
+}
+
+.about-me {
+    padding: 2rem 2.5rem;
+}
+
+.about-me h1 {
+    text-align: left;
+    font-size: 1rem;
+    color: black;
+}
+
+.about-me p {
+    text-align: left;
+    font-size: 0.7rem;
+    color: black;
+}
